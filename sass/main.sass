@@ -1,0 +1,22 @@
+@import reset
+@import mixins
+
+$base-bg-color: white
+$item-bg-color: blue
+
+
+div 
+	width: auto
+	height: auto
+	display: block
+	background-color: $base-bg-color
+	a
+		color: yellow
+		@include padding20
+		display: block
+		text-decoration: none
+
+.item
+	margin: 60px
+	background-color: $item-bg-color
+	min-height: 100px
